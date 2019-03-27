@@ -8,9 +8,9 @@ class HomeFragment : BaseFragment() {
 
     @Inject
     lateinit var viewModel: HomeModel
-    
-    override fun onFinishedViewLoad() {
 
+    override fun onFinishedViewLoad() {
+        viewModel.test()
     }
 
     override fun fragmentLayout(): Int = R.layout.home_fragment

@@ -15,6 +15,6 @@
     <activity
             android:id="@+id/mainActivity"
             tools:layout="@layout/activity_main"
-            android:name="com.be.stepper.ui.MainActivity"/>
+            android:name="com.be.stepper.ui.view.MainActivity"/>
 
 </navigation>
