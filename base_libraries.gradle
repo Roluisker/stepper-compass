@@ -1,0 +1,16 @@
+ext {
+    dependencies {
+        implementation deps.kotlin.stdlib
+        implementation deps.support.appCompat
+        implementation deps.support.androidxCore
+        implementation deps.support.constraint
+        implementation deps.desing.material
+        implementation deps.lifecycle.extensions
+        implementation deps.lifecycle.reactStreams
+        implementation deps.rx.rxjava
+        implementation deps.rx.rxandroid
+        implementation deps.log.timber
+        implementation deps.navigation.core
+        implementation deps.navigation.fragment
+    }
+}
