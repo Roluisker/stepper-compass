@@ -1,7 +1,5 @@
 # Stepper compass
 
-## Synopsis
-
 ![](https://media.giphy.com/media/jan5jb1SNhZqDIaqVs/giphy.gif)
 
 - Part 1 - Compass, Canvas:
