@@ -9,7 +9,6 @@ import com.be.stepper.R
 import kotlinx.android.synthetic.main.stepper_layout.view.*
 import android.view.animation.AnimationUtils
 
-
 class StepperComponent(context: Context, attrs: AttributeSet) : LinearLayout(context, attrs) {
 
     private lateinit var componentListener: StepperComponentListener
@@ -29,15 +28,14 @@ class StepperComponent(context: Context, attrs: AttributeSet) : LinearLayout(con
     }
 
     private fun setListeners() {
-        ::componentListener?.isInitialized.takeIf { true }?.apply {
+        ::componentListener?.isInitialized.takeIf { it }?.apply {
             stepperContinueButton.setOnClickListener { componentListener.onStepperContinue() }
             stepperBackButton.setOnClickListener { componentListener.onStepperBack() }
         }
     }
 
     fun drawAttention() {
-        val shake = AnimationUtils.loadAnimation(context, R.anim.shake)
-        startAnimation(shake)
+        startAnimation(AnimationUtils.loadAnimation(context, R.anim.shake))
     }
 
     interface StepperComponentListener {
