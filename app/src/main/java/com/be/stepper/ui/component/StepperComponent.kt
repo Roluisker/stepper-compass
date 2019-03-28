@@ -34,8 +34,12 @@ class StepperComponent(context: Context, attrs: AttributeSet) : LinearLayout(con
         }
     }
 
-    fun drawAttention() {
+    fun drawGeneralAttention() {
         startAnimation(AnimationUtils.loadAnimation(context, R.anim.shake))
+    }
+
+    fun drawContinueAttention(){
+        stepperContinueButton.startAnimation(AnimationUtils.loadAnimation(context, R.anim.shake))
     }
 
     interface StepperComponentListener {

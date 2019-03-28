@@ -1,8 +1,10 @@
 package com.be.stepper.ui.view.home
 
+import androidx.lifecycle.Observer
 import com.be.stepper.R
 import com.be.stepper.core.BaseFragment
 import com.be.stepper.ui.component.StepperComponent
+
 import kotlinx.android.synthetic.main.home_fragment.*
 import timber.log.Timber
 import javax.inject.Inject
@@ -14,6 +16,14 @@ class HomeFragment : BaseFragment(), StepperComponent.StepperComponentListener {
 
     override fun onFinishedViewLoad() {
         stepperComponent.listener(this)
+        inciteUserToContinueHandler()
+    }
+
+    private fun inciteUserToContinueHandler() {
+        viewModel.liveData.observe(this, Observer<Boolean> {
+            stepperComponent.drawContinueAttention()
+        })
+        viewModel.countToDrawAttention()
     }
 
     override fun onStepperContinue() {
@@ -25,7 +35,7 @@ class HomeFragment : BaseFragment(), StepperComponent.StepperComponentListener {
     }
 
     override fun onShake() {
-        stepperComponent.drawAttention()
+        stepperComponent.drawGeneralAttention()
         Timber.i("Shake3")
     }
 

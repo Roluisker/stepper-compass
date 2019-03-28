@@ -6,6 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="HomeFragment" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
@@ -21,8 +22,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/CompassComponent.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/StepperComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/StepperComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeModel.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,19 +58,19 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="16" />
-          <entry key="java" value="16" />
+          <entry key="java" value="20" />
           <entry key="json" value="3" />
-          <entry key="kt" value="64" />
-          <entry key="xml" value="43" />
+          <entry key="kt" value="68" />
+          <entry key="xml" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="16" />
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="20" />
           <entry key="JSON" value="3" />
-          <entry key="Kotlin" value="64" />
-          <entry key="XML" value="43" />
+          <entry key="Kotlin" value="68" />
+          <entry key="XML" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -76,29 +78,32 @@
           <entry key="dummy" value="9" />
           <entry key="gradle" value="22" />
           <entry key="java" value="208" />
-          <entry key="kt" value="1863" />
+          <entry key="kt" value="2312" />
           <entry key="txt" value="75" />
-          <entry key="xml" value="1911" />
+          <entry key="xml" value="1943" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="22" />
           <entry key="JAVA" value="208" />
-          <entry key="Kotlin" value="1863" />
+          <entry key="Kotlin" value="2312" />
           <entry key="PLAIN_TEXT" value="84" />
-          <entry key="XML" value="1911" />
+          <entry key="XML" value="1943" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            <state relative-caret-position="171">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#37#398#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,8 +112,8 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="90">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -116,38 +121,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/StepperComponent.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="396">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/CompassComponent.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/stepper_layout.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="266">
+              <caret line="103" column="58" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#37#318#0" expanded="true" />
+                <element signature="e#37#302#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/AppComponent.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -192,6 +189,7 @@
       <find>onRE</find>
       <find>onS</find>
       <find>mGraduationDrawable</find>
+      <find>mMillisInFuture</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app</dir>
@@ -2711,7 +2709,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/core/di/InjectViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/UiModule.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/step_drawable.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_step.xml" />
@@ -2725,15 +2722,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/utils/ShakeDetector.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/WelcomeFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/core/BaseFragment.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/shake.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/stepper_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/CompassView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/CompassComponent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/StepperComponent.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/Compass.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/CompassComponent.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/stepper_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/StepperComponent.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeFragment.kt" />
       </list>
     </option>
   </component>
@@ -2801,7 +2799,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="color&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/app/src/main/res/values/colors.xml&#10;stepper_layout&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/app/src/main/res/layout/stepper_layout.xml&#10;aPP&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/app/src/main/java/com/be/stepper/App.kt&#10;App&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/app/src/main/java/com/be/stepper/App.kt&#10;ic&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/app/src/main/res/drawable/ic_step.xml&#10;config_module&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/config_module.gradle" />
+    <property name="SearchEverywhereHistoryKey" value="Wel&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/app/src/main/java/com/be/stepper/ui/view/WelcomeFragment.kt&#10;color&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/app/src/main/res/values/colors.xml&#10;stepper_layout&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/app/src/main/res/layout/stepper_layout.xml&#10;aPP&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/app/src/main/java/com/be/stepper/App.kt&#10;App&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/app/src/main/java/com/be/stepper/App.kt&#10;ic&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/app/src/main/res/drawable/ic_step.xml&#10;config_module&#9;FILE&#9;file:///home/usuario/AndroidPro/stepper-compass/config_module.gradle" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
@@ -2992,21 +2990,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config_module.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_libraries.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/asasd.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/werer.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -3062,13 +3045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -3228,21 +3204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/WelcomeFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/stepper_layout.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1155">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/core/BaseFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -3264,21 +3225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -3328,19 +3274,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/StepperComponent.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/CompassComponent.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#37#318#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/CompassComponent.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.15/7fcede59716defd2c9d83f24febb7ac44e6534a3/rxjava-2.1.15-sources.jar!/io/reactivex/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="195">
+          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/androidx/lifecycle/LiveData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="169" column="16" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/WelcomeFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/os/CountDownTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#37#318#0" expanded="true" />
+            <element signature="e#37#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/home_fragment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/stepper_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="103" column="58" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/component/StepperComponent.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/be/stepper/ui/view/home/HomeFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#37#398#0" expanded="true" />
           </folding>
         </state>
       </provider>
