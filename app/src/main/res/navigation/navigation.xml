@@ -10,7 +10,23 @@
             android:id="@+id/steps"
             android:name="com.be.stepper.ui.view.home.HomeFragment"
             android:label="fragment_steps"
-            tools:layout="@layout/home_fragment"/>
+            tools:layout="@layout/home_fragment">
+
+        <action
+                android:id="@+id/action_final_step"
+                app:enterAnim="@anim/fade_in"
+                app:exitAnim="@anim/fade_out"
+                app:popEnterAnim="@anim/fade_in"
+                app:popExitAnim="@anim/fade_out"
+                app:destination="@id/finalStep"/>
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/finalStep"
+            android:name="com.be.stepper.ui.view.FinalStepFragment"
+            android:label="fragment__final_step"
+            tools:layout="@layout/final_step_fragment"/>
 
     <activity
             android:id="@+id/mainActivity"
@@ -27,6 +43,8 @@
                 android:id="@+id/action_welcome_steps"
                 app:enterAnim="@anim/fade_in"
                 app:exitAnim="@anim/fade_out"
+                app:popEnterAnim="@anim/fade_in"
+                app:popExitAnim="@anim/fade_out"
                 app:destination="@id/steps"/>
 
     </fragment>

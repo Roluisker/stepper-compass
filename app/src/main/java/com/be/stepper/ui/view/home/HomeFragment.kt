@@ -27,12 +27,10 @@ class HomeFragment : BaseFragment(), StepperComponent.StepperComponentListener {
     }
 
     override fun onStepperContinue() {
-        Timber.i("onStepperContinue")
+        navController()!!.navigate(HomeFragmentDirections.actionFinalStep())
     }
 
-    override fun onStepperBack() {
-        Timber.i("onStepperBack")
-    }
+    override fun onStepperBack() {}
 
     override fun onShake() {
         stepperComponent.drawGeneralAttention()
