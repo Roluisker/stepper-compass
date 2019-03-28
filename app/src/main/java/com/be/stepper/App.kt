@@ -30,7 +30,7 @@ class App : Application(), HasSupportFragmentInjector {
 
     override fun onCreate() {
         super.onCreate()
-        BuildConfig.DEBUG.takeIf { true }.apply { Timber.plant(Timber.DebugTree()) }
+        BuildConfig.DEBUG.takeIf { it }.apply { Timber.plant(Timber.DebugTree()) }
         component = buildDagger()
         component!!.inject(this)
     }
